@@ -1,0 +1,105 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Test02",
+            "request": "launch",
+            "mainClass": "Test02",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch teste",
+            "request": "launch",
+            "mainClass": "teste",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test01",
+            "request": "launch",
+            "mainClass": "Test01",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch entrada",
+            "request": "launch",
+            "mainClass": "entrada",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fluxo",
+            "request": "launch",
+            "mainClass": "Fluxo",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Condicional",
+            "request": "launch",
+            "mainClass": "Condicional",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayList",
+            "request": "launch",
+            "mainClass": "arrayList",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayMulti",
+            "request": "launch",
+            "mainClass": "ArrayMulti",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraySimples",
+            "request": "launch",
+            "mainClass": "ArraySimples",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch IMC",
+            "request": "launch",
+            "mainClass": "IMC",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch EntradaJo",
+            "request": "launch",
+            "mainClass": "EntradaJo",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Variavel",
+            "request": "launch",
+            "mainClass": "Variavel",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "domain.HelloWorld"
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
