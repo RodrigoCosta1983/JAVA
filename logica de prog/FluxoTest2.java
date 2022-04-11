@@ -2,8 +2,8 @@ public class FluxoTest2 {
     public static void main(String[] args) {
         
         
-        int x = 1;  //anterior
-        int y = 2;  //proximo
+        int x = 0;  //anterior
+        int y = 1;  //proximo
         
         System.out.println(x);
        
@@ -12,7 +12,7 @@ public class FluxoTest2 {
             System.out.println(y);
 
            y = y + x;
-           x = y + x;
+           x = y - x;
 
 
             
