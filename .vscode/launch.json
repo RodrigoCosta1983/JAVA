@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FluxoTest2",
+            "request": "launch",
+            "mainClass": "FluxoTest2",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch FluxoTest",
+            "request": "launch",
+            "mainClass": "FluxoTest",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch FluxoWhile",
+            "request": "launch",
+            "mainClass": "FluxoWhile",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
             "name": "Launch FluxoForeach",
             "request": "launch",
             "mainClass": "FluxoForeach",
