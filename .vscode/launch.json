@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AutoBoxing",
+            "request": "launch",
+            "mainClass": "AutoBoxing",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotulosEx",
+            "request": "launch",
+            "mainClass": "RotulosEx",
+            "projectName": "JAVA_3df388da"
+        },
+        {
+            "type": "java",
             "name": "Launch FluxoTest2",
             "request": "launch",
             "mainClass": "FluxoTest2",

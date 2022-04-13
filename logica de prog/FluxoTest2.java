@@ -14,6 +14,7 @@ public class FluxoTest2 {
            y = y + x;
            x = y - x;
 
+          // break;             //Paro a execucao do LOOP
 
             
         }
