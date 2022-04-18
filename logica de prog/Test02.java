@@ -2,9 +2,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Test02 {
-    public static void main(String[] args) {
+    private static Scanner s;
+
+	public static void main(String[] args) {
         
-        Scanner s = new Scanner(System.in);
+        s = new Scanner(System.in);
         System.out.println("Qual o seu palpite nos dados?");
         int palpite = s.nextInt();
         System.out.println("Seu Palpite eh: " + palpite);

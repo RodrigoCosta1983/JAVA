@@ -2,9 +2,10 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Test01 {
-    public static void main(String[] args) {
+    private static Scanner s;
+	public static void main(String[] args) {
 
-            Scanner s = new Scanner(System.in);
+            s = new Scanner(System.in);
             System.out.println("Qual o seu palpite nos dados?");
             String palpite = s.nextLine();
             System.out.println("Seu Palpite eh: " + palpite);
@@ -22,10 +23,10 @@ public class Test01 {
            System.out.println("O valor sortiado foi = " + valoDadoSortiado);
 
            boolean b = Boolean.getBoolean(valoDadoSortiado);
-           boolean p = Boolean.getBoolean(palpite);
+           Boolean.getBoolean(palpite);
 
 
-            if (p = b) {
+            if (b) {
                 System.out.println("Vc acertou !!!");
                 
             }else{
