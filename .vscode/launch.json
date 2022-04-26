@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ContaTest",
+            "request": "launch",
+            "mainClass": "poo.ContaTest",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
             "name": "Launch AutoBoxing",
             "request": "launch",
             "mainClass": "AutoBoxing",
