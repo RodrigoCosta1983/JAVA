@@ -13,9 +13,14 @@ public class GalinhaTest {
 		g2.botar();							// ou separado por linhas
 		g2.botar();
 		
+		Galinha Eva = new Galinha();
+		Eva.botar().botar().botar();
+		
 		System.out.println(g1.ovos);
 		System.out.println(g2.ovos);
-		
+		System.out.println("Eva colocou: "+ Eva.ovos +" ovos");
+		System.out.println("Total de ovos da granja: " + Galinha.ovosDaGranja);
+		System.out.println(Galinha.mediaDeOvos(3));
 	}
 
 }
