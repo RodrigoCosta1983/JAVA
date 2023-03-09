@@ -1,46 +1,45 @@
 public class Fluxo {
-    public static void main(String[] args) {
-        
-        char sexo = 'M';
+	public static void main(String[] args) {
 
-        switch (sexo) {
+		char sexo = 'M';
 
-            case 'M':
-            System.out.println("Menino");
-            break;
+		switch (sexo) {
 
-            case 'F':
-            System.out.println("Fenino");
-            break;
+		case 'M':
+			System.out.println("Menino");
+			break;
 
-            default:
-            System.out.println("Outro");
+		case 'F':
+			System.out.println("Fenino");
+			break;
 
-        }
+		default:
+			System.out.println("Outro");
 
-        String tecnologia = "postgresql";
+		}
 
-        switch (tecnologia) {
-            case "java":
-            case "c++":
-            case "cobol":
-                System.out.println("Linguagem de Programacao");
+		String tecnologia = "postgresql";
 
-                break;
+		switch (tecnologia) {
+		case "java":
+		case "c++":
+		case "cobol":
+			System.out.println("Linguagem de Programacao");
 
-            case "oracle":
-            case "sqlserver":
-            case "postgresql":
-                System.out.println("Banco de Dados");
+			break;
 
-                break;
-        
-            default:
-              System.out.println("Tecnologia Desconhecida");
+		case "oracle":
+		case "sqlserver":
+		case "postgresql":
+			System.out.println("Banco de Dados");
 
-                break;
-        }
+			break;
 
-            
-    }
+		default:
+			System.out.println("Tecnologia Desconhecida");
+
+			break;
+		}
+
+	}
 }

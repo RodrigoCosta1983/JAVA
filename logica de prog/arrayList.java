@@ -1,30 +1,28 @@
 import java.util.ArrayList;
 
 public class arrayList {
-    public static void main(String[] args) {
-        
-        ArrayList<String> cores = new ArrayList<>();
-    
-            cores.add("Branco");
-            cores.add(0, "Preto");
-            cores.add("Verde");
-            cores.add(1,"Azul");
+	public static void main(String[] args) {
 
+		ArrayList<String> cores = new ArrayList<>();
 
-            System.out.println(cores.toString());
+		cores.add("Branco");
+		cores.add(0, "Preto");
+		cores.add("Verde");
+		cores.add(1, "Azul");
 
-            System.out.println("Tamanho = " + cores.get(2));
-            System.out.println(cores.get(2));
-            System.out.println("Indice Branco = " + cores.indexOf("Branco"));
+		System.out.println(cores.toString());
 
-            System.out.println("Tem Branco? " + cores.contains("Branco"));
+		System.out.println("Tamanho = " + cores.get(2));
+		System.out.println(cores.get(2));
+		System.out.println("Indice Branco = " + cores.indexOf("Branco"));
 
-            cores.remove("Branco");     
+		System.out.println("Tem Branco? " + cores.contains("Branco"));
 
-            System.out.println(cores.toString());
+		cores.remove("Branco");
 
-            System.out.println("Tem Branco? " + cores.contains("Branco"));
+		System.out.println(cores.toString());
 
+		System.out.println("Tem Branco? " + cores.contains("Branco"));
 
-    }
+	}
 }

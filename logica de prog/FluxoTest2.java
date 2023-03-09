@@ -1,23 +1,21 @@
 public class FluxoTest2 {
-    public static void main(String[] args) {
-        
-        
-        int x = 0;  //anterior
-        int y = 1;  //proximo
-        
-        System.out.println(x);
-       
-        while (y < 50) {
+	public static void main(String[] args) {
 
-            System.out.println(y);
+		int x = 0; // anterior
+		int y = 1; // proximo
 
-           y = y + x;
-           x = y - x;
+		System.out.println(x);
 
-          // break;             //Paro a execucao do LOOP
+		while (y < 50) {
 
-            
-        }
-        
-    }
+			System.out.println(y);
+
+			y = y + x;
+			x = y - x;
+
+			// break; //Paro a execucao do LOOP
+
+		}
+
+	}
 }

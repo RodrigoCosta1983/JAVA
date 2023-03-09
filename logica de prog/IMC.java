@@ -1,30 +1,27 @@
 import javax.swing.JOptionPane;
 
 /**
- * Calcular o IMC
- * IMC = pesoEmQuilogramas / (altura * altura)
+ * Calcular o IMC IMC = pesoEmQuilogramas / (altura * altura)
  */
 
 public class IMC {
-    
-    public static void main(String[] args) {
 
-        String peso = JOptionPane.showInputDialog("Qual o seu peso em KG ?");
-        String altura = JOptionPane.showInputDialog("Qual a sua altura em CM ?");
+	public static void main(String[] args) {
 
-        double pesoEmQuilogramas = Double.parseDouble(peso);
-        double alturaEmMetros = Double.parseDouble(altura);
+		String peso = JOptionPane.showInputDialog("Qual o seu peso em KG ?");
+		String altura = JOptionPane.showInputDialog("Qual a sua altura em CM ?");
 
-        double imc = pesoEmQuilogramas / (alturaEmMetros * alturaEmMetros);
+		double pesoEmQuilogramas = Double.parseDouble(peso);
+		double alturaEmMetros = Double.parseDouble(altura);
 
-        String msg = (imc >= 20 && imc <= 25) ? "Peso Ideal" : "Fora do Peso";
+		double imc = pesoEmQuilogramas / (alturaEmMetros * alturaEmMetros);
 
-        msg = "IMC = " + imc + "\n" + msg;
+		String msg = (imc >= 20 && imc <= 25) ? "Peso Ideal" : "Fora do Peso";
 
-       // System.out.println("Vc esta com " + msg );
-        JOptionPane.showMessageDialog(null, msg);  //Imprimir a resposta
-        
+		msg = "IMC = " + imc + "\n" + msg;
 
-        
-    }
+		// System.out.println("Vc esta com " + msg );
+		JOptionPane.showMessageDialog(null, msg); // Imprimir a resposta
+
+	}
 }
