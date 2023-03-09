@@ -17,10 +17,10 @@ public class Pessoa {
 	public int getCodigo() {
 		return codigo;
 	}
-	
+
 	public void setNome(String nome) {
-		this.nome=nome;
-		
+		this.nome = nome;
+
 	}
 
 }

@@ -15,10 +15,10 @@ public class PessoaApp {
 		System.out.println("O meu cod eh: " + codPessoa1.getCodigo());
 
 		System.out.println("Cod: " + codPessoa1.getCodigo() + " - Nome: " + pessoa1.getNome());
-		
+
 		pessoa1.setNome("Hellen");
-		
-		System.out.println("Nome alterado: "+pessoa1.getNome());
+
+		System.out.println("Nome alterado: " + pessoa1.getNome());
 	}
 
 }

@@ -17,12 +17,12 @@ public class Cliente {
 	public String getEnd() {
 		return end;
 	}
-	
+
 	public void setNome(String nome) {
-		this.nome=nome;
+		this.nome = nome;
 	}
 
 	public void setEnd(String end) {
-		this.end=end;
+		this.end = end;
 	}
 }
