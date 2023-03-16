@@ -1,4 +1,4 @@
-import java.util.Arrays;
+ import java.util.Arrays;
 
 public class ArraySimples {
 	public static void main(String[] args) {
@@ -7,14 +7,14 @@ public class ArraySimples {
 
 		System.out.println(paises[0]);
 
-		paises[0] = "BRASIL";
+		paises[0] = "BRASIL"; //alterando o elemento da poiçao 0
 
 		System.out.println(paises[0]);
-		System.out.println(paises.length);
+		System.out.println(paises.length); //verificando qts elementos possui na array
 
 		System.out.println(Arrays.toString(paises));
 
-		int posicao = Arrays.binarySearch(paises, "ES");
+		int posicao = Arrays.binarySearch(paises, "ES");  //buscando qual posicao esta o elemento na array
 
 		System.out.println(posicao);
 
