@@ -6,11 +6,11 @@ public class Fluxo {
 		switch (sexo) {
 
 		case 'M':
-			System.out.println("Menino");
+			System.out.println("Masculino");
 			break;
 
 		case 'F':
-			System.out.println("Fenino");
+			System.out.println("Feminino");
 			break;
 
 		default:
