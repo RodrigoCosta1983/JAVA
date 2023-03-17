@@ -19,17 +19,13 @@ public class Test01 {
 			Random r = new Random();
 			int dado = r.nextInt(6)+1;
 			
-			/**
-			
+			/**			
 			Integer valorDado = r.nextInt(dado.length);
 			String valoDadoSortiado = dado[valorDado];
-
 			System.out.println("O valor sortiado foi = " + valoDadoSortiado);
-
 			boolean b = Boolean.getBoolean(valoDadoSortiado);
 			Boolean.getBoolean(palpite);
-
-			 **/
+			**/
 			
 			System.out.println("O valor sortiado foi = " + dado);
 
