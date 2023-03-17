@@ -24,8 +24,7 @@ public class Test01 {
 			String valoDadoSortiado = dado[valorDado];
 			System.out.println("O valor sortiado foi = " + valoDadoSortiado);
 			boolean b = Boolean.getBoolean(valoDadoSortiado);
-			Boolean.getBoolean(palpite);
-			
+			Boolean.getBoolean(palpite);			
 			**/
 			
 			System.out.println("O valor sortiado foi = " + dado);
