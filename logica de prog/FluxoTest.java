@@ -12,7 +12,7 @@ public class FluxoTest {
 
 		String produto;
 
-		while (!"FIM".equals(produto = s.nextLine())) { // .esquals eh um metodo de comparacao
+		while (!"FIM".equals(produto = s.nextLine().toUpperCase().trim())) { // .esquals eh um metodo de comparacao
 			produtos.add(produto);
 		}
 		System.out.println(produtos.toString()); // toString imprime todos os produtos da lista
