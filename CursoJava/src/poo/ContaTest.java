@@ -10,8 +10,9 @@ public class ContaTest {
 		conta.saldo = 10_000.00;  		//double pode utilizar ". ou _" nos numeros
 		conta.exibeSaldo();
 		
-		
-		conta.sacar(1000);
+				
+		conta.sacar(1500);
+		conta.valorSaque(1500);
 		conta.exibeSaldo();
 		
 		
