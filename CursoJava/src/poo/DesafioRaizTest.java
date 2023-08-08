@@ -12,6 +12,7 @@ public class DesafioRaizTest {
 		System.out.println(raiz);
 		
 	 	System.out.println(Math.sqrt(276));
+	 	System.out.println(Math.sqrt(81)); // metodo para realizar a raiz quadrada direto
 	}
 
 }
